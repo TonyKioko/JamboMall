@@ -7,7 +7,8 @@ import ProductList from './components/ProductList';
 import Details from './components/Details';
 import Cart from './components/Cart';
 import Default from './components/Default';
-import { Switch,Route } from 'react-router-dom'
+import { Switch,Route } from 'react-router-dom';
+import Modal from './components/Modal';
 
 
 class App extends Component {
@@ -24,10 +25,7 @@ class App extends Component {
 
         </Switch>
 
-      {/* <ProductList />
-      <Details/>
-      <Cart />
-      <Default /> */}
+        <Modal />
 
 
       </React.Fragment>
