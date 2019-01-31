@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {Link } from 'react-router-dom';
-import Logo from '../logo.svg';
+// import Logo from '../logo.svg';
+import Logo2 from '../product-2.png';
+
 import styled from "styled-components";
 import { ButtonContainer } from "./Button";
 
@@ -8,13 +10,14 @@ export default class Navbar extends Component {
   render() {
     return (
       <NavWrapper className="navbar navbar-expand-sm bg-primary navbar-dark">
+      <div className="container">
       <Link to="/" className="navbar-brand" >
-      <img src={Logo} alt=""/>
+      <img src={Logo2} style={{width:'60px',height:'60px'}} alt=""/>
       </Link>
       <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
             <Link to="/" className="nav-link">
-              Products
+              JAMBOMALL
             </Link>
           </li>
         </ul>
@@ -27,6 +30,8 @@ export default class Navbar extends Component {
     </ButtonContainer>
         
         </Link>
+      
+      </div>
       
       
       </NavWrapper>

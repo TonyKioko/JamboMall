@@ -31,7 +31,7 @@ export default class CartTotals extends Component {
                 </Link>
                 <h5>
                   <span className="text-title"> subtotal :</span>{" "}
-                  <strong>$ {cartSubTotal} </strong>
+                  <strong>Ksh {cartSubTotal} </strong>
                 </h5>
                 <h5>
                   <span className="text-title"> tax :</span>{" "}
