@@ -35,11 +35,11 @@ export default class CartTotals extends Component {
                 </h5>
                 <h5>
                   <span className="text-title"> tax :</span>{" "}
-                  <strong>$ {cartTax} </strong>
+                  <strong>Ksh {cartTax} </strong>
                 </h5>
                 <h5>
                   <span className="text-title"> total :</span>{" "}
-                  <strong>$ {cartTotal} </strong>
+                  <strong>Ksh {cartTotal} </strong>
                 </h5>
                 <PayPalButton
                   totalAmount={cartTotal}
