@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://jambomall.netlify.com/">
-    <img src="src/jmall.png" width="256" />
+    <img src="src/jmall.png"  />
   </a>
 </div>
 ## Basic Overview - [Live Demo](https://jambomall.netlify.com/)
