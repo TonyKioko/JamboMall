@@ -5,12 +5,13 @@
     <img src="src/jmall.png"  />
   </a>
 </div>
+
 ## Basic Overview - [Live Demo](https://jambomall.netlify.com/)
 
 This simple shopping cart prototype shows how React components can be used to build a
 friendly user experience with instant visual updates and scaleable code in ecommerce applications.
 
-#### Features
+## Features
 
 - Add and remove products from the shopping cart
 - Pay for products using PayPal
